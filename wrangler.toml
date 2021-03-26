@@ -1,0 +1,11 @@
+name = "orderfast"
+type = "webpack"
+account_id = ""
+workers_dev = false
+route = "orderfast-dev.zyda.com/*"
+zone_id = ""
+webpack_config = "node_modules/flareact/webpack"
+
+[site]
+bucket = "out"
+entry-point = "./"
